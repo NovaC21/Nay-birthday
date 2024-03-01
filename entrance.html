@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/346f72535d.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="../flower-orange-organic-svgrepo-com.svg">
+  <script type="module" src="../logic/index.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="are-u-sure">
+      <h1>ต้องการยืนยันตัวบุคคล
+        <br>เพื่อป้องกันการบุกรุกพื้นที่ส่วนตัว <br>กรุณากรอกชื่อด้วยเงื่อนไขพิเศษ
+      </h1>
+
+      <i class="fa-solid fa-key" id="keyOne" ></i>
+      
+
+      <form class="name-of-three" id="nameOfThree">
+        <input id="text1" type="text" placeholder="ชื่อเล่นที่ตัวเองเขียนถูก" autocomplete="off" required  > 
+        <label class="input-hint"><i class="fa-solid fa-compass"></i>มีเพียง 2 ตัวอักษร</label>
+
+        <input id="text2" type="text" placeholder="ชื่อเล่นที่เจ้าของเกมเขียนถูก" autocomplete="off" required>
+        <label  class="input-hint"><i class="fa-solid fa-compass"></i>คุณเป็นเเจ็คผู้ "ฆ่ายักษ์"</label>
+
+        <input id="text3" type="text" placeholder="เจ้าของเกมชอบแทนชื่อคุณว่าอะไร" autocomplete="off" required>
+        <label  class="input-hint"><i class="fa-solid fa-compass"></i>มีเพียง 3 ตัวอักษร</label>
+
+        
+        <button class="btn-check" id="btn-check">ยืนยัน</button>
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>
