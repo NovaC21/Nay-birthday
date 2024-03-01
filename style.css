@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  
+ 
+}
+
+.container{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+
+.are-u-sure{
+
+ width: 600px;
+ height: auto;
+ 
+ text-align: center;
+}
+
+.fa-key{
+  margin: 30px 0;
+  font-size: 30px;
+  color: #5a5a5a;
+  border: 4px double #333;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+ transition: d ;
+}
+
+.fa-key:hover{
+  
+  font-size: 32px;
+  padding: 12px;
+  color: #D2AB80;
+  border: 4px double #66c04f;
+  
+}
+
+.name-of-three{
+  margin-top: 100px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-of-three input{
+  height: 60px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background: #e0dfdf;
+}
+
+.name-of-three input::placeholder{
+  text-align: center;
+}
+
+.input-hint{
+  display: none;
+  font-size: 12px;
+  margin-top: -8px;
+  color: #bb5d2a;
+  
+ 
+}
+
+.fa-compass{
+  margin-right: 10px;
+}
+
+.btn-check{
+  width: 200px;
+  padding: 10px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background: #e0dfdf ;
+  cursor: pointer;
+}
+
+.btn-check:hover{
+  border: 3px double #66c04f;
+  color: #bb5d2a;
+}
+
+
+
+/* page1 */
+

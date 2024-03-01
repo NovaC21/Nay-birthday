@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;}
+
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background: #efe9db;
+  
+}
+#letter{
+  display: flex;
+  position: relative;
+  top: 15%;
+  left:34%;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  background: #efefef;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px 1px #5a5a5a;
+  cursor: pointer;
+}
+
+#letter:hover{
+  box-shadow: 0px 1px 3px 1px #66c04f;
+}
+.fa-envelope{
+font-size: 200px;
+
+
+}
+
+#toUMyLove{
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+#TML{
+  display: none;
+  position: absolute;
+  opacity: 0;
+  top: 9%;
+  right: 27%;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+  
+  box-shadow: 0px 1px 3px 1px #5a5a5a;
+}
+
+h1{
+  position: absolute;
+  opacity: 1;
+  top: 11%;
+  left: 40%;
+  font-size: 20px;
+}
+
+audio{
+opacity: 0;
+}

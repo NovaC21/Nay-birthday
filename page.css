@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+ background: #efe9db;
+
+
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  gap: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+#textie{
+  height: auto;
+  font-size: 25px;
+}
+
+
+#next{
+  width: 100px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  
+  border-radius: 26px;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0px 1px 3px 1px #5a5a5a;
+  cursor: pointer;
+}
+
+#next:hover{
+  box-shadow: 0px 1px 3px 1px #66c04f;
+}
+
+.ageInput{
+  position: absolute;
+  display: none;
+  /* transform: translateX(100%); */
+  top: 71%;
+  left: 20%;
+  width: 300px;
+}
+
+/* .show-ageInput{
+  position: absolute;
+  opacity: 1;
+  
+  transform: translateX(0);
+  transition: opacity 0.5s, transform 0.5s;
+  top: 71%;
+  left: 20%;
+  width: 300px;
+} */
+
+
+
+.ageInput input{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 26px;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0px 1px 3px 1px #5a5a5a;
+  text-align: center;
+  cursor: pointer;
+}
+
+.screenCThing{
+  position: absolute;
+  display: none;
+  top: 52%;
+  left: 65%;
+  width: 220px;
+  
+}
+
+
+.currentThing{
+  width: 100%;
+  background: #cec4b4;
+  padding: 11px;
+  border-radius: 26px;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+  border: 2px double #333;
+}
+
+.currentThing:focus{
+  border: 2px double #66c04f;
+}
+
+.currentThing:focus + .fa-pen{
+  display: none;
+  
+}
+
+
+.fa-pen{
+  position: absolute;
+  bottom: 16%;
+  right: 9%;
+}
+
+.wishContain{
+  position: absolute;
+  display: none;
+  top: 52%;
+  left: 65%;
+  width: 220px;
+}
+
+
+audio{
+  opacity: 0;
+}
